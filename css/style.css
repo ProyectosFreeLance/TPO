@@ -12,14 +12,14 @@ main {
 .topnav {
   position: fixed;
   overflow: hidden;
-  background-color: rgb(121, 99, 4);
+  background-color: A98467;
   top: 0;
   right: 0;
   left: 0;
   /* z-index: 1030;*/
 }
 .navlogo {
-  border-color: aquamarine;
+  border-color: A98467;
   border-spacing: 1vh;
   border-radius: 50%;
   width: 2rem;
