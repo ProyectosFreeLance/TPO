@@ -8,22 +8,35 @@ main {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  font: small-caps bold 24px/1 sans-serif;
 }
 .topnav {
   position: fixed;
   overflow: hidden;
-  background-color: #A98467;
+  background-color: #a98467;
   top: 0;
   right: 0;
   left: 0;
   /* z-index: 1030;*/
 }
+.btn-menu {
+}
+a:link,
+a:visited {
+  /*background-color: #6c584c;*/
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5%;
+}
 .navlogo {
-  border-color: #A98467;
+  border-color: #fffcfa;
   border-spacing: 1vh;
   border-radius: 50%;
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
 }
 .flex-container {
   display: flex;
@@ -48,7 +61,7 @@ main {
   flex: 30%;
 }
 .landing {
-  background-image: url("../imagenes/landing_1.png");
+  background-image: url("../imagenes/landing.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -61,8 +74,16 @@ main {
 
 @media (max-width: 800px) {
   .landing {
-        background-image: url(imagenes/background-photo-mobile-devices.jpg);
-        background-size: cover;
+    background-image: url("../imagenes/landing_804.jpg");
+    /* background-size: cover;*/
+    /*background-size: contain;*/
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 1vh;
+    color: rgb(254, 254, 255);
+    justify-content: center;
+    align-items: center;
   }
   .flex-item-left {
     background-color: #f1f1f1;
@@ -78,12 +99,5 @@ main {
     background-color: rgba(228, 136, 31, 0.514);
     padding: 10px;
     flex: 40%;
-  }
-}
-@media (max-width: 579px) {
-  .flex-item-right,
-  .flex-item-left,
-  .flex-item-right {
-    flex: 100%;
   }
 }
