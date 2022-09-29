@@ -1,23 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Reservas</title>
   </head>
   <body>
-    <header></header>
-    <main>
+    <header>
+     aca va el menu<!-- espacio para el menu  -->
+    </header>
+    <main class="form">
       <section>
-        <!-- se pueden hacer modificaciones conforme avanzemos con el diseño de la pag  -->
         <h1>Contacto</h1>
-        <!-- <p>dejo este parrafo por si queremos escribir algo</p> -->
-        <div style="margin: 10px">
-          <form action="">
+        <!-- se pueden hacer modificaciones conforme avanzemos con el diseño de la pag  -->
+        <div>
+          <form >
             <fieldset>
               <legend>Datos Personales</legend>
-              <div style="margin: 10px">
+              <div class="parte-form">
                 <label for="nombre">Nombre</label>
                 <input
                   class=" "
@@ -29,7 +31,7 @@
                   required
                 />
               </div>
-              <div style="margin: 10px">
+              <div class="parte-form">
                 <label for="apellido">Apellido</label>
                 <input
                   type="text"
@@ -40,7 +42,7 @@
                   required
                 />
               </div>
-              <div style="margin: 10px">
+              <div class="parte-form">
                 <label for="telefono">Telefono</label>
                 <input
                   type="number"
@@ -49,9 +51,9 @@
                   value=""
                   id="telefono"
                   required
-                />
+                  />
               </div>
-              <div style="margin: 10px">
+              <div class="parte-form">
                 <label for="email">Email</label>
                 <input
                   type="email"
@@ -63,32 +65,40 @@
                 />
               </div>
             </fieldset>
-            <div style="margin: 10px">
+            <div class="opciones">
               Reserva tu cabaña:
               <input type="radio" name="cabañas" value="1" />Cabaña 1
-              <!-- quite el selected por si se comuncian por algo qu eno es reserva-->
               <input type="radio" name="cabañas" value="2" />Cabaña 2
               <input type="radio" name="cabañas" value="3" />Cabaña 3
             </div>
-            <div style="margin: 10px">
-              <label for="mensaje">Contacto </label>
+            <div class="parte-form ">
+              <label for="mensaje"></label>
               <textarea
                 name="mensaje"
                 id="mensaje"
-                style="width: 100%"
                 rows="10"
                 placeholder="Mensaje"
               >
               </textarea>
             </div>
-            <div clase="botones-form">
-              <button type="reset">Borrar</button>
-              <input type="submit" value="Enviar" />
+            <div class="boton-area">
+              <button type="reset" class="boton-form">Borrar</button>
+              <input type="submit" value="Enviar" class="boton-form"/>
             </div>
           </form>
         </div>
       </section>
+      
+      <div class="iframe-area">
+        <iframe
+        src="https://embed.windy.com/embed2.html?lat=-33.481&lon=-66.260&detailLat=-33.378&detailLon=-66.101&width=650&height=550&zoom=10&level=surface&overlay=wind&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=true&metricWind=default&metricTemp=default&radarRange=-1"
+        >
+        </iframe>
+      </div>
+
     </main>
-    <footer></footer>
+    <footer>
+      
+    </footer>
   </body>
 </html>
