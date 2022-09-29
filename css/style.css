@@ -1,42 +1,31 @@
-* {
-  box-sizing: border-box;
-}
-
+* { 
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+} 
+/* por favor chequear que onda con el main para que no queden bordes, gracias
 main {
   padding-top: 1vh;
   margin-top: 1rem;
   display: flex;
   flex-direction: column;
   height: 100vh;
-  font: small-caps bold 24px/1 sans-serif;
 }
 .topnav {
   position: fixed;
   overflow: hidden;
-  background-color: #a98467;
+  background-color: rgb(121, 99, 4);
   top: 0;
   right: 0;
   left: 0;
   /* z-index: 1030;*/
-}
-.btn-menu {
-}
-a:link,
-a:visited {
-  /*background-color: #6c584c;*/
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 5%;
-}
+/* }
 .navlogo {
-  border-color: #fffcfa;
+  border-color: aquamarine;
   border-spacing: 1vh;
   border-radius: 50%;
-  width: 3rem;
-  height: 3rem;
+  width: 2rem;
+  height: 2rem;
 }
 .flex-container {
   display: flex;
@@ -61,11 +50,8 @@ a:visited {
   flex: 30%;
 }
 .landing {
-  background-image: url("../imagenes/landing.jpg");
+  background-image: url("../imagenes/landing_1.png");
   background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   font-size: 2vh;
   color: rgb(254, 254, 255);
   justify-content: center;
@@ -73,18 +59,6 @@ a:visited {
 }
 
 @media (max-width: 800px) {
-  .landing {
-    background-image: url("../imagenes/landing_804.jpg");
-    /* background-size: cover;*/
-    /*background-size: contain;*/
-
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    font-size: 1vh;
-    color: rgb(254, 254, 255);
-    justify-content: center;
-    align-items: center;
-  }
   .flex-item-left {
     background-color: #f1f1f1;
     padding: 10px;
@@ -101,3 +75,130 @@ a:visited {
     flex: 40%;
   }
 }
+@media (max-width: 579px) {
+  .flex-item-right,
+  .flex-item-left,
+  .flex-item-right {
+    flex: 100%;
+  }
+} */
+
+/* apartir de aca va corresponde al formulario */
+
+.form {
+  width: 100%;
+  background-color: #ADC178;
+}
+section {
+  background-color: #ADC178;
+
+}
+section h1{
+  text-align: center;
+  font-size: 2.3rem;
+  color: #40342d;
+  margin: 20px;
+
+}
+
+fieldset {
+  width: 100%;
+  max-width: 600px;
+  border-color: #6C584C;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+textarea {
+  border-color: #6C584C;
+  border-radius: 10px;
+  background-color: #DDE5B6;
+  width: 100%;
+}
+.parte-form {
+  margin: 10px;
+
+}
+.parte-form input {
+  background-color: #ADC178;
+  border-radius: 10px;
+  border-color: #DDE5B6;
+  text-indent: 2%;
+  
+}
+.parte-form input:hover{
+  background-color: #DDE5B6;
+
+}
+.parte-form input:focus{
+  background-color: #DDE5B6;
+}
+
+
+.opciones {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boton-area{
+  display: flex;
+  justify-content:center ;
+  
+}
+.boton-form  {
+  border-radius: 10px;
+  border-color: #ADC178;
+  background-color: #ADC178;
+  font-size: 25px;
+  color: #6C584C;
+  padding: 15px 30px;
+  margin: 0 5% 0 5%;
+  
+}
+.boton-form:hover {
+  background-color: #DDE5B6;
+  color: #40342d;
+}
+.iframe-area{
+  background-color: #ADC178;
+}
+iframe {
+  width: 98%;
+  height: 182px;
+  border-radius: 30px;
+  border: none;
+  margin: 1%;
+}
+.opciones input[type="radio"]{
+  display: block;
+  width: 18px;
+  height: 18px;
+  margin: 10px;
+  border: 5px solid #40342d;
+  border-radius: 50%;
+  background:#ADC178;
+  cursor: pointer;
+
+}
+.opciones input[type="radio"]:checked{
+  border: 5px solid #40342d;
+  background: #6C584C;
+  animation: shadow .3s;
+ 
+  
+}
+@keyframes shadow{
+  50%{
+    box-shadow: 0 0 15px 5px #40342d;
+    
+  }
+}
+
+
+
+
