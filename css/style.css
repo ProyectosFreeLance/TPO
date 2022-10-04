@@ -199,6 +199,64 @@ iframe {
   }
 }
 
+/* apartir de aca corresponde a las actividades */
+.actv-main{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ADC178;
+}
+.actv-h1{
+  text-align: center;
+  font-size: 2.3rem;
+  color: #40342d;
+  padding-top: 100px;
+}
+.actv-p{
+  text-align: left;
+  font-size: 1.3rem;
+  color: #40342d;
+  margin: 50px 150px 50px 150px;
+}
+.actv-area{
+  width: 98%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}  
+.actv-item-der{
+  width: 80%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+}
+.actv-item-izq{
+  width: 80%;
+  height: 90%;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 2vw;
+}
+.actv-img{
+  max-width: 400px;
+  border-radius: 15px;
+  margin: 15px;
+}
+.actv-desc{
+  font-size: 1rem;
+  color: #40342d;
+  max-width: 500px;
+  margin: 150px  0 150px 0px;
+}
+.actv-tit{
+  font-size: 1.8rem;
+  color: #40342d;
+}
+
 
 
 
