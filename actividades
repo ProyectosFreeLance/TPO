@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=C, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Actividades</title>
+</head>
+<body>
+    <header>
+<!-- aca va el menu  -->
+    </header>
+    <main class="actv-main">
+        <h1 class="actv-h1">Actividades</h1>
+        <p class="actv-p">Reconecta con la naturaleza en las diferentes actividades al aire libre que se pueden realizar en San Luis.</p>
+        <div class="actv-area">
+            <div class="actv-item-der">
+                <img class="actv-img" src="https://www.swaconhospital.com/wp-content/uploads/2019/04/5-things-to-remember-when-trekking-with-children-feat.jpg" alt="">
+                <a href=""></a>
+                <div class="actv-desc">
+                    <h4 class="actv-tit" >Trekking</h4 >
+                    <p>
+                    Disfruta de un paseo apto para grandes y chicos.
+                    </p>
+                </div>
+
+            </div>
+            <div class="actv-item-izq">
+                <img class="actv-img" src="https://images.unsplash.com/photo-1620720970374-5b7e67e1e610?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="">
+                <a href=""></a>
+                <div class="actv-desc">
+                    <h4 class="actv-tit">Parapente</h4>
+                    <p >
+                        Contempla las mejores vistas de San Luis desde las alturas.  
+                    </p>
+                </div>
+            </div>
+
+            <div class="actv-item-der">
+                <img class="actv-img" src="https://images.unsplash.com/photo-1586992429265-43f37c2b2c01?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1413&q=80" alt="">
+                <a href=""></a>
+                <div class="actv-desc" > 
+                    <h4 class="actv-tit">Ciclismo de Montaña</h4>
+                    <p>
+                        Recorre la montaña por los senderos exclusivos para bicicletas.
+                        
+                    </p>
+                </div>
+            </div>
+            <div class="actv-item-izq">
+                <img class="actv-img" src="https://www.lowcosttoursgrancanaria.com/templateEditor/kcfinder/upload/images/caballo/caballos-paint.jpg" alt="">
+                <a href=""></a>
+                <div class="actv-desc">
+                    <h4 class="actv-tit">Cabalgata</h4 >
+                    <p >
+                        Una experiencia especial que jamas olvidaras.
+                            
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+    <footer>
+<!-- aca va el footer -->
+    </footer>
+</body>
+</html>
