@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=C, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cabañas</title>
+</head>
+<body>
+    <header>
+<!-- aca va el menu  -->
+    </header>
+    <main class="actv-main">
+        <h1 class="actv-h1">Cabañas</h1>
+        <p class="actv-p">Elige la cabaña que más se adapte a tu estilo.</p>
+        <div class="actv-area">
+            <div class="actv-item-der">
+                <img class="actv-img" src="https://posadasdelangel.com.ar/wp-content/uploads/2022/04/Cabanas-mercedes.jpeg" alt="" aria-label="abrir cabaña 1">
+                <a href=""></a>
+                <div class="actv-desc">
+                    <h4 class="actv-tit" >Cabaña 1</h4 >
+                    <p>
+                    
+                    </p>
+                </div>
+
+            </div>
+            <div class="actv-item-izq">
+                <img class="actv-img" src="https://images4.alphacoders.com/710/710052.png" alt="">
+                <a href=""></a>
+                <div class="actv-desc">
+                    <h4 class="actv-tit">Cabaña 2</h4>
+                    <p >
+                      
+                    </p>
+                </div>
+            </div>
+
+            <div class="actv-item-der">
+                <img class="actv-img" src="https://w0.peakpx.com/wallpaper/716/731/HD-wallpaper-cottage-cozy-house-garden-nature.jpg" alt="">
+                <a href=""></a>
+                <div class="actv-desc" > 
+                    <h4 class="actv-tit">Cabaña 3</h4>
+                    <p>
+                    
+                        
+                    </p>
+                </div>
+            </div>
+            <div class="actv-item-izq">
+                <img class="actv-img" src="https://w0.peakpx.com/wallpaper/476/296/HD-wallpaper-pretty-cottage-cabin-cottage-house-landscape-nature-new-nice-pretty.jpg" alt="">
+                <a href=""></a>
+                <div class="actv-desc">
+                    <h4 class="actv-tit">Cabaña 4</h4 >
+                    <p >
+                        
+                            
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+    <footer>
+<!-- aca va el footer -->
+    </footer>
+</body>
+</html>
