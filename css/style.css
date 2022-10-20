@@ -1,42 +1,90 @@
+:root {
+  --primary-medium: #a98467;
+  --primary-dark: #6c584c;
+  --primary-ligth: #f0ead2;
+  --secondary-dark-: #adc178;
+  --secondary-ligth: #dde5b6;
+  --primary-link: #ffffff;
+}
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500&display=swap");
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Maven Pro", sans-serif;
 }
-
-main {
+body {
+  overflow-y: hidden;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.landing {
   padding-top: 1vh;
-  margin-top: 1rem;
+  margin-top: 5rem;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 90vh;
   font: small-caps bold 24px/1 sans-serif;
 }
+
 .topnav {
   position: fixed;
   overflow: hidden;
-  background-color: #a98467;
+  background-color: var(--primary-dark);
   top: 0;
   right: 0;
-  left: 0;
+  width: 100vw;
+  height: 80px;
   /* z-index: 1030;*/
 }
-.btn-menu {
+.bottomnav {
+  position: fixed;
+  overflow: hidden;
+  background-color: var(--primary-dark);
+  bottom: 0;
+  right: 0;
+  width: 100vw;
+  height: 80px;
+  /* z-index: 1030;*/
 }
-a:link,
-a:visited {
-  /*background-color: #6c584c;*/
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
+
+.btn-menu {
+  display: none;
+}
+.topnav > .menu > a:link,
+.topnav > .menu > a:visited {
+  color: var(--primary-link);
+  margin-left: calc(2vw + 5px);
+  margin-top: calc(3vh + 5px);
+  text-align: left;
   text-decoration: none;
   display: inline-block;
   border-radius: 5%;
+  font-size: calc(1.5vw + 6px);
 }
-.navlogo {
-  border-color: #fffcfa;
-  border-spacing: 1vh;
+nav .topnav .menu .navlogo {
+  position: fixed;
+  right: 0.5rem;
+  top: 0.5rem;
+  height: 4rem;
+  width: 6rem;
   border-radius: 50%;
-  width: 3rem;
-  height: 3rem;
+  border: 2px solid white;
+  box-shadow: 0px 0px 4px 5px var(--primary-ligth);
+  background-color: var(--primary-ligth);
+}
+footer .bottomnav .navlogo {
+  position: fixed;
+  right: 0.5rem;
+  bottom: 0.5rem;
+  height: 4rem;
+  width: 6rem;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0px 0px 4px 5px var(--primary-ligth);
+  background-color: var(--primary-ligth);
+  cursor: pointer;
 }
 .flex-container {
   display: flex;
@@ -45,59 +93,106 @@ a:visited {
   text-align: center;
 }
 
-.flex-item-left {
-  background-color: #f1f1f1;
-  padding: 4%;
-  flex: 30%;
-}
-.flex-item-center {
-  background-color: dodgerblue;
-  padding: 4%;
-  flex: 30%;
-}
-.flex-item-right {
-  background-color: rgba(228, 136, 31, 0.514);
-  padding: 0.4rem;
-  flex: 30%;
-}
 .landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-image: url("../imagenes/landing.jpg");
   background-size: cover;
-  background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  font-size: 2vh;
-  color: rgb(254, 254, 255);
+  font-size: 3.5vw;
+  color: var(--primary-link);
   justify-content: center;
+  -webkit-text-stroke: 0.1rem black;
+}
+/*nestor*/
+
+.redes {
+  position: flex;
+  flex-direction: column;
+  width: 15vw;
+  padding-left: 10%;
+}
+.facebook {
+  position: fixed;
+  bottom: 52px;
+  left: 15vw;
+  width: 20px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.instagram {
+  position: fixed;
+  bottom: 25px;
+  left: 15vw;
+  width: 20px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.airbnb {
+  position: fixed;
+  bottom: 2px;
+  left: 15vw;
+  width: 20px;
+  height: auto;
+  vertical-align: middle;
+}
+
+#footerimg {
+  position: fixed;
+  left: 0.5rem;
+  bottom: 0.5rem;
+  width: 4rem;
+  float: left;
+}
+.box {
+  display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.textofooter {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  color: var(--primary-link);
 }
 
 @media (max-width: 800px) {
   .landing {
     background-image: url("../imagenes/landing_804.jpg");
-    /* background-size: cover;*/
-    /*background-size: contain;*/
-
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-size: 1vh;
-    color: rgb(254, 254, 255);
+    font-size: 4vw;
+    color: var(--primary-link);
     justify-content: center;
-    align-items: center;
+    -webkit-text-stroke: 0.1rem black;
   }
-  .flex-item-left {
-    background-color: #f1f1f1;
-    padding: 10px;
-    flex: 20%;
+  .topnav > .menu > a:link,
+  .topnav > .menu > a:visited {
+    color: var(--primary-link);
+    font-size: calc(2.6vw + 6px);
   }
-  .flex-item-center {
-    background-color: dodgerblue;
-    padding: 10px;
-    flex: 40%;
+  .textofooter {
+    flex-direction: column;
   }
-  .flex-item-right {
-    background-color: rgba(228, 136, 31, 0.514);
-    padding: 10px;
-    flex: 40%;
+}
+@media (max-width: 500px) {
+  .navlogo,
+  #footerimg {
+    display: none;
+  }
+  .topnav > .menu > a:link,
+  .topnav > .menu > a:visited {
+    font-size: calc(3vw + 6px);
+  }
+  .facebook,
+  .instagram,
+  .airbnb {
+    left: 5vw;
   }
 }
