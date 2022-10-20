@@ -190,6 +190,13 @@ footer .bottomnav .navlogo {
   .topnav > .menu > a:visited {
     font-size: calc(3vw + 6px);
   }
+    .facebook,
+  .instagram,
+  .airbnb {
+    left: 5vw;
+  }
+}
+
   
   /* apartir de aca va corresponde al formulario */
 
@@ -374,9 +381,3 @@ footer .bottomnav .navlogo {
     
   
   
-  .facebook,
-  .instagram,
-  .airbnb {
-    left: 5vw;
-  }
-}
