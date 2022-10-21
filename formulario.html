@@ -21,7 +21,92 @@
         </div>
       </nav>
     </header>
-    <main>aca va formulario de yamila</main>
+    
+    <main class="form">
+        <section>
+            <h1>Contacto</h1>
+            <div>
+                <form >
+                    <fieldset>
+                        <legend>Datos Personales</legend>
+                            <div class="parte-form">
+                                <label for="nombre">Nombre</label>
+                                <input
+                                  class=" "
+                                  type="text"
+                                  name="nombre"
+                                  placeholder="Nombre*"
+                                  value=""
+                                  id="nombre"
+                                  required/>
+                            </div>
+                            <div class="parte-form">
+                                <label for="apellido">Apellido</label>
+                                <input
+                                    type="text"
+                                    name="apellido"
+                                    placeholder="Apellido*"
+                                    value=""
+                                    id="apellido"
+                                    required
+                                    />
+                            </div>
+                            <div class="parte-form">
+                             <label for="telefono">Telefono</label>
+                                <input
+                                  type="number"
+                                  name="telefono"
+                                  placeholder="telefono*"
+                                  value=""
+                                  id="telefono"
+                                  required
+                                  />
+                            </div>
+                            <div class="parte-form">
+                                <label for="email">Email</label>
+                                <input
+                                  type="email"
+                                  name="email"
+                                  placeholder="E-mail*"
+                                  value=""
+                                  id="email"
+                                  required
+                                />
+                            </div>
+                    </fieldset>
+                    <div class="opciones">
+                      Reserva tu cabaña:
+                      <input type="radio" name="cabañas" value="1" />Cabaña 1
+                      <input type="radio" name="cabañas" value="2" />Cabaña 2
+                      <input type="radio" name="cabañas" value="3" />Cabaña 3
+                    </div>
+                    <div class="parte-form ">
+                      <label for="mensaje"></label>
+                      <textarea
+                        name="mensaje"
+                        id="mensaje"
+                        rows="10"
+                        placeholder="Mensaje"
+                      >
+                      </textarea>
+                    </div>
+                    <div class="boton-area">
+                      <button type="reset" class="boton-form">Borrar</button>
+                      <input type="submit" value="Enviar" class="boton-form"/>
+                    </div>
+                </form>
+            </div>
+        </section>
+  
+        <div class="iframe-area">
+            <iframe
+            src="https://embed.windy.com/embed2.html?lat=-33.481&lon=-66.260&detailLat=-33.378&detailLon=-66.101&width=650&height=550&zoom=10&level=surface&overlay=wind&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=true&metricWind=default&metricTemp=default&radarRange=-1"
+            >
+            </iframe>
+        </div>
+
+    </main> 
+   
     <footer>
       <nav>
         <div class="bottomnav">
