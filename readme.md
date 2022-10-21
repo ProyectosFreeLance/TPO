@@ -1,20 +1,13 @@
-# paleta colores 
-https://coolors.co/palette/f0ead2-dde5b6-adc178-a98467-6c584c
+Rafa:
+LANDING  
+NAV BAR
 
-rafa:
-LANDING  { NAVBAR ok MAIN ok FOOTER ok }
-CSS
-
-nestor:
-CABAÑIAS { BARNAV ok MAIN (falta responsive) FOOTER ok }
-ACTIVIDADES { BARNAV ok MAIN ok FOOTER ok }
+Néstor:
+ACTIVIDADES 
 API
+FOOTER
 
-yamila:
-FORMULARIO { BARNAV ok MAIN ok IFRAME ok FOOTER ok }
+Yamila:
+FORMULARIO 
+CABAÑAS
 
-finalizar antes del 20/10
-
-YAMILA: github page
-RAFA: navbar & footer css
-NESTOR: api & google sheets
