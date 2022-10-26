@@ -182,7 +182,7 @@ footer .bottomnav .navlogo {
   .topnav > .menu > a:link,
   .topnav > .menu > a:visited {
     color: var(--primary-link);
-    font-size: calc(2.6vw + 10px);
+    font-size: calc(2.6vw + 6px);
   }
   .textofooter {
     flex-direction: column;
