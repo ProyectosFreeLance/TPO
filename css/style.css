@@ -319,71 +319,148 @@ iframe {
     box-shadow: 0 0 15px 5px #40342d;
   }
 }
-/* apartir de aca corresponde a las Cabañas */
-.cabs-main {
-  padding: 0;
-  margin: 0;
-  margin-bottom: 100px;
-  width: 100%;
-  height: 100%;
-  background-color: #adc178;
-}
-.cabs-h1 {
-  text-align: center;
-  font-size: 2.3rem;
-  color: #40342d;
-  padding-top: 100px;
-}
-.cabs-p {
-  text-align: left;
-  font-size: 1.3rem;
-  color: #40342d;
-  margin: 50px 150px 50px 150px;
-}
-.cabs-area {
-  width: 98%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.cabs-item-der {
-  width: 80%;
-  height: 90%;
-  display: flex;
-  flex-direction: row;
-  gap: 2vw;
-}
-.cabs-item-izq {
-  width: 80%;
-  height: 90%;
-  display: flex;
-  flex-direction: row-reverse;
-  gap: 2vw;
-}
-.cabs-img {
-  max-width: 400px;
-  border-radius: 15px;
-  margin: 15px;
-  box-shadow: 2px 15px 25px rgba(0, 0, 0, 0.5);
-  transition: all 600ms ease;
-  cursor: zoom-in;
-}
-.cabs-img:hover {
-  transform: scale(1.4);
-}
-.cabs-desc {
-  font-size: 1rem;
-  color: #40342d;
-  max-width: 500px;
-  margin: 150px 0 150px 0px;
-}
-.cabs-tit {
-  font-size: 1.8rem;
-  color: #40342d;
-}
 
+  /* apartir de aca corresponde a las Cabañas */
+  .cabs-main{
+    padding-bottom: 100px;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ADC178;
+  }
+  .cabs-h1{
+    text-align: center;
+    font-size: 2.3rem;
+    color: #40342d;
+    padding-top: 100px;
+  }
+  .cabs-p{
+    text-align: left;
+    font-size: 1.3rem;
+    color: #40342d;
+    margin: 50px 150px 50px 150px;
+  }
+  .cabs-area{
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }  
+  .cabs-item-der, .cabs-item-izq{
+    width: 80%;
+    height: 90%;
+    gap: 2vw;
+    display: flex;
+  }
+  .cabs-item-der{
+    flex-direction: row;
+  }
+  .cabs-item-izq{
+    flex-direction: row-reverse;
+  }
+  .cabs-img{
+    max-width: 400px;
+    border-radius: 15px;
+    margin: 15px;
+    box-shadow: 2px 15px 25px rgba(0,0,0,0.50);
+    transition: all 600ms ease;
+    cursor: zoom-in;
+  }
+  .cabs-img:hover{
+    transform: scale(1.4);
+  
+  }
+  .cabs-desc{
+    font-size: 1rem;
+    color: #40342d;
+    max-width: 500px;
+    margin: 150px  0 150px 0px;
+   
+  }
+  .cabs-tit{
+    font-size: 1.8rem;
+    color: #40342d;
+  }
+  /* galeria */
+ 
+  .btn-ver{
+    background-color:#ffffff00;
+    border:none;
+    border-radius: 5px;
+    color:#40342d ;
+    font-size: medium;
+    padding: 5%;
+    margin: 0 5% 0 5%;
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.50);
+  }
+  .btn-ver:hover{
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #40342d ;
+    padding: 5%;
+    margin: 0 5% 0 5%;
+  }
+  .slider{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin-top: 150px;
+    left: 50%;
+    z-index: 10;
+    display: flex;
+    justify-content: start;
+    opacity: 1;
+  }
+  .slider img{
+    width: 700px;
+    height: 500px;
+    border-radius: 25px;
+    border: 5px solid white;
+    top: 0%;
+    left: 0%;
+    transform: translate(-50%,-100%) scale(1);
+    position: absolute;
+    opacity: 0;
+    transition: all 0.7s;
+  }
+  .slider input[type="radio"]{
+    position:relative;
+    transform: translate(-700%,-300%);
+    z-index: 10;
+    margin: 15px;
+  }
+  .slider input[type="radio"]:checked ~ img{
+    opacity: 1;
+  }
+  .btn-x{
+    position: absolute;
+    top: -520px;
+    right: -190px;
+    background: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.50);
+    cursor: pointer;
+    border:none;
+    color:#40342d ;
+    font-size: medium;
+    font-weight: 800;
+  }
+  .btn-x:hover{
+    color: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #40342d ;
+    font-size: medium;
+    font-weight: 800;
+  }
+  
 /* Néstor */
 /* .foto1 {
   margin: 0%;
