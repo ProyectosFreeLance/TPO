@@ -4,6 +4,8 @@
   <li>Néstor Martire</li>
  	ACTIVIDADES: que_hacer.html
 	
+	FOOTER
+	
 	API codigo.js
 	
 	CSS: actividades
