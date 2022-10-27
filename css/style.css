@@ -114,7 +114,7 @@ footer .bottomnav .navlogo {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  width: 80%;
+  width: calc(6vw + 600px);
   padding: 20px;
 }
 /*nestor*/
@@ -175,9 +175,12 @@ footer .bottomnav .navlogo {
 
 @media (max-width: 800px) {
   .landing {
-    background-image: url("../imagenes/landing_804.jpg");
+    background-image: url("../imagenes/landing_802.jpg");
     justify-content: center;
-    font: small-caps bold calc(2vw + 6px);
+    font: small-caps bold calc(1.5vw + 6px);
+  }
+  .msg {
+    width: calc(6vw + 400px);
   }
   .topnav > .menu > a:link,
   .topnav > .menu > a:visited {
@@ -192,6 +195,9 @@ footer .bottomnav .navlogo {
   .navlogo,
   #footerimg {
     display: none;
+  }
+  .msg {
+    width: calc(6vw + 300px);
   }
   .topnav > .menu > a:link,
   .topnav > .menu > a:visited {
