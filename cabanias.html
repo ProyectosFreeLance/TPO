@@ -22,41 +22,127 @@
       </div>
     </nav>
   </header>
+  
+  <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Las Morenitas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  <link rel="icon" type="image/png" href="./imagenes/favicon.png" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="topnav">
+        <h3 class="menu">
+          <img src="./imagenes/logo_1.webp" class="navlogo" />
+          <a href="index.html">Inicio</a>
+          <a href="cabanias.html">Cabañas</a>
+          <a href="formulario.html">Reservas</a>
+          <a href="que_hacer.html">Actividades</a>
+        </h3>
+      </div>
+    </nav>
+  </header>
+  
   <main class="cabs-main">
-    <div>
-    <h1 class="cabs-h1">Cabañas</h1>
-    <p class="cabs-p">Elige la cabaña que más se adapte a tu estilo.</p>
-    <div class="cabs-area">
-      <div class="cabs-item-der">
-        <img class="cabs-img" src="https://posadasdelangel.com.ar/wp-content/uploads/2022/04/Cabanas-mercedes.jpeg"
-          alt="" aria-label="abrir cabaña 1">
-        <div class="cabs-desc">
-          <h4 class="cabs-tit">Cabaña 1</h4>
-        </div>
-      </div>
-      <div class="cabs-item-izq">
-        <img class="cabs-img" src="https://images4.alphacoders.com/710/710052.png" alt="">
-        <div class="cabs-desc">
-          <h4 class="cabs-tit">Cabaña 2</h4>
-        </div>
-      </div>
-      <div class="cabs-item-der">
-        <img class="cabs-img"
-          src="https://w0.peakpx.com/wallpaper/716/731/HD-wallpaper-cottage-cozy-house-garden-nature.jpg" alt="">
-        <div class="cabs-desc">
-          <h4 class="cabs-tit">Cabaña 3</h4>
-        </div>
-      </div>
-      <div class="cabs-item-izq">
-        <img class="cabs-img"
-          src="https://w0.peakpx.com/wallpaper/476/296/HD-wallpaper-pretty-cottage-cabin-cottage-house-landscape-nature-new-nice-pretty.jpg"
-          alt="">
-        <div class="cabs-desc">
-          <h4 class="cabs-tit">Cabaña 4</h4>
-        </div>
-      </div>
+      <h1 class="cabs-h1">Cabañas</h1>
+      <p class="cabs-p">Elige la cabaña que más se adapte a tu estilo.</p>
+        <div class="cabs-area">
+          <div class="cabs-item-der">
+            <img class="cabs-img" src="https://posadasdelangel.com.ar/wp-content/uploads/2022/04/Cabanas-mercedes.jpeg" alt="">
+            <div class="cabs-desc">
+              <h4 class="cabs-tit" >Cabaña 1</h4 >
+                <button class="btn-ver" id="btn-ver">ver+</button>
+                <ul class="slider" id="">
+                  <li class="sli-1"> 
+                    <input type="radio" id="gal-btn1" name="gal-btn" checked>
+                    <img src="https://www.nasa.gov/sites/default/files/thumbnails/image/web_first_images_release_0.png "></li>
+                  <li class="sli-2"> 
+                    <input type="radio" id="gal-btn2" name="gal-btn">
+                    <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg "></li>
+                  <li class="sli-3">
+                    <input type="radio" id="gal-btn3" name="gal-btn"> 
+                    <img src="https://d7lju56vlbdri.cloudfront.net/var/ezwebin_site/storage/images/_aliases/img_1col/noticias/solar-orbiter-toma-imagenes-del-sol-como-nunca-antes/9437612-1-esl-MX/Solar-Orbiter-toma-imagenes-del-Sol-como-nunca-antes.jpg "></li>
+                  <li class="sli-4"> 
+                    <input type="radio" id="gal-btn4" name="gal-btn">
+                    <img src="https://educacion30.b-cdn.net/wp-content/uploads/2019/02/girasoles-978x652.jpg "></li>
+                    <button class="btn-x" id="btn-x">x</button>        
+                </ul>                   
+            </div>              
+          </div>
+                    
+          <div class="cabs-item-izq">
+            <img class="cabs-img" src="https://images4.alphacoders.com/710/710052.png" alt="">
+            <div class="cabs-desc">
+              <h4 class="cabs-tit">Cabaña 2</h4>
+                <button class="btn-ver" id="btn-ver">ver+</button>
+                <ul class="slider" id="">
+                  <li class="sli-1"> 
+                    <input type="radio" id="gal-btn1" name="gal-btn" checked>
+                    <img src="https://www.nasa.gov/sites/default/files/thumbnails/image/web_first_images_release_0.png "></li>
+                  <li class="sli-2"> 
+                    <input type="radio" id="gal-btn2" name="gal-btn">
+                    <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg "></li>
+                  <li class="sli-3">
+                    <input type="radio" id="gal-btn3" name="gal-btn"> 
+                    <img src="https://d7lju56vlbdri.cloudfront.net/var/ezwebin_site/storage/images/_aliases/img_1col/noticias/solar-orbiter-toma-imagenes-del-sol-como-nunca-antes/9437612-1-esl-MX/Solar-Orbiter-toma-imagenes-del-Sol-como-nunca-antes.jpg "></li>
+                  <li class="sli-4"> 
+                    <input type="radio" id="gal-btn4" name="gal-btn">
+                    <img src="https://educacion30.b-cdn.net/wp-content/uploads/2019/02/girasoles-978x652.jpg "></li>
+                    <button class="btn-x" id="btn-x">x</button>        
+                </ul>
+            </div>                     
+          </div>
+          <div class="cabs-item-der">
+            <img class="cabs-img" src="https://w0.peakpx.com/wallpaper/716/731/HD-wallpaper-cottage-cozy-house-garden-nature.jpg" alt="">
+            <div class="cabs-desc" > 
+              <h4 class="cabs-tit">Cabaña 3</h4>
+              <button class="btn-ver" id="btn-ver">ver+</button>
+                <ul class="slider" id="">
+                  <li class="sli-1"> 
+                    <input type="radio" id="gal-btn1" name="gal-btn" checked>
+                    <img src="https://www.nasa.gov/sites/default/files/thumbnails/image/web_first_images_release_0.png "></li>
+                  <li class="sli-2"> 
+                    <input type="radio" id="gal-btn2" name="gal-btn">
+                    <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg "></li>
+                  <li class="sli-3">
+                    <input type="radio" id="gal-btn3" name="gal-btn"> 
+                    <img src="https://d7lju56vlbdri.cloudfront.net/var/ezwebin_site/storage/images/_aliases/img_1col/noticias/solar-orbiter-toma-imagenes-del-sol-como-nunca-antes/9437612-1-esl-MX/Solar-Orbiter-toma-imagenes-del-Sol-como-nunca-antes.jpg "></li>
+                  <li class="sli-4"> 
+                    <input type="radio" id="gal-btn4" name="gal-btn">
+                    <img src="https://educacion30.b-cdn.net/wp-content/uploads/2019/02/girasoles-978x652.jpg "></li>
+                    <button class="btn-x" id="btn-x">x</button>        
+                </ul>                    
+            </div>              
+          </div>
+          <div class="cabs-item-izq">
+            <img class="cabs-img" src="https://w0.peakpx.com/wallpaper/476/296/HD-wallpaper-pretty-cottage-cabin-cottage-house-landscape-nature-new-nice-pretty.jpg" alt="">
+            <div class="cabs-desc">
+              <h4 class="cabs-tit">Cabaña 4</h4 >
+                <button class="btn-ver" id="btn-ver">ver+</button>
+                <ul class="slider" id="">
+                  <li class="sli-1"> 
+                    <input type="radio" id="gal-btn1" name="gal-btn" checked>
+                    <img src="https://www.nasa.gov/sites/default/files/thumbnails/image/web_first_images_release_0.png "></li>
+                  <li class="sli-2"> 
+                    <input type="radio" id="gal-btn2" name="gal-btn">
+                    <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg "></li>
+                  <li class="sli-3">
+                    <input type="radio" id="gal-btn3" name="gal-btn"> 
+                    <img src="https://d7lju56vlbdri.cloudfront.net/var/ezwebin_site/storage/images/_aliases/img_1col/noticias/solar-orbiter-toma-imagenes-del-sol-como-nunca-antes/9437612-1-esl-MX/Solar-Orbiter-toma-imagenes-del-Sol-como-nunca-antes.jpg "></li>
+                  <li class="sli-4"> 
+                    <input type="radio" id="gal-btn4" name="gal-btn">
+                    <img src="https://educacion30.b-cdn.net/wp-content/uploads/2019/02/girasoles-978x652.jpg "></li>
+                    <button class="btn-x" id="btn-x">x</button>        
+                </ul>
+            </div>             
+          </div>
     </div>
-  </div>
+  
   </main>
   <footer>
     <nav>
@@ -96,4 +182,19 @@
     </nav>
   </footer>
 </body>
+
+<script>
+    // funcion botones galeria
+    document.getElementById("btn-ver").addEventListener("click", function(){
+      document.querySelector(".slider").style.display ="flex";
+    }
+    );
+    document.getElementById("btn-x").addEventListener("click",function(){
+      document.querySelector(".slider").style.display = "none";
+    }
+    );
+
+  </script>
+  </html>
+
 </html>
